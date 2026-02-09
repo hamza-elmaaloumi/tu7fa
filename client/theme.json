@@ -1,0 +1,91 @@
+{
+  "design_system_name": "Midnight Archive",
+  "philosophy": {
+    "aesthetic": "Literary Noir / Premium Dark Mode",
+    "principle": "Sophisticated contrast through classical serif typography and modern tactile containers.",
+    "border_radius_standard": "24px",
+    "layout_logic": "Card-based containment with generous negative space to prevent visual clutter in dark mode."
+  },
+  "color_palette": {
+    "background": {
+      "main": "#000000",
+      "surface_elevated": "#121212",
+      "surface_card": "#1A1A1A",
+      "overlay": "rgba(0, 0, 0, 0.75)"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#B0B0B0",
+      "tertiary": "#757575",
+      "brand_accent": "#D4E96E"
+    },
+    "accents": {
+      "primary": "#6B8E23",
+      "secondary_pink": "#F2B2C1",
+      "info_blue": "#2BB2D0",
+      "success_green": "#D4E96E"
+    }
+  },
+  "typography": {
+    "font_pairs": {
+      "headings": "Display Serif (e.g., Playfair Display or New York)",
+      "body": "Modern Sans-Serif (e.g., Inter or SF Pro)"
+    },
+    "scale": {
+      "h1": { "size": "32px", "weight": "600", "letter_spacing": "-0.02em" },
+      "h2": { "size": "24px", "weight": "600" },
+      "subheading": { "size": "16px", "weight": "500", "font_family": "Sans" },
+      "body": { "size": "14px", "line_height": "1.6" }
+    }
+  },
+  "components": {
+    "containers": {
+      "card": {
+        "background": "#1A1A1A",
+        "border": "1px solid #2A2A2A",
+        "border_radius": "24px",
+        "padding": "20px"
+      },
+      "hero_header": {
+        "depth": "Subtle bottom gradient fade",
+        "image_integration": "High-saturation imagery with darkened overlays"
+      }
+    },
+    "navigation": {
+      "tabs": {
+        "active_indicator": "Bottom bar, 3px height, brand_accent color",
+        "inactive_opacity": "0.5",
+        "font_weight": "600"
+      },
+      "pills_filter": {
+        "border_radius": "50px",
+        "border": "1.5px solid #333333",
+        "padding": "8px 20px"
+      }
+    },
+    "actions": {
+      "primary_button": {
+        "background": "#000000",
+        "text_color": "#FFFFFF",
+        "border": "1.5px solid #FFFFFF",
+        "border_radius": "50px",
+        "hover": "Scale 1.02, inverted colors"
+      },
+      "fab_create": {
+        "background": "#6B8E23",
+        "color": "#FFFFFF",
+        "border_radius": "50px",
+        "shadow": "0 8px 16px rgba(0,0,0,0.4)"
+      }
+    },
+    "feedback_indicators": {
+      "rating_stars": { "color": "#FFFFFF", "empty_opacity": "0.3" },
+      "progress_trackers": { "height": "4px", "active": "#D4E96E", "track": "#333333" }
+    }
+  },
+  "spacing": {
+    "unit": 4,
+    "section_gap": "40px",
+    "inline_gap": "12px"
+  }
+}
